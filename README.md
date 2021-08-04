@@ -1,0 +1,2 @@
+Il progetto consiste nel creare una riproduzione della pagina principale del motore di ricerca Google.
+Alla fine dovrei essere in grado di comprendere come vengono messi e personalizzati i vari elementi HTML nella pagina.
