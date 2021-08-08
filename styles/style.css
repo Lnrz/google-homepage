@@ -1,0 +1,104 @@
+.bottone {
+    background-color: rgba(211, 211, 211, 0.219);
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+    border: 0px;
+    border-radius: 2px;
+    padding: 9px 15px 9px 15px;
+    position: relative;
+    top: 28px;
+    left: 95px;
+}
+
+.bottone:hover {
+    color: rgba(0, 0, 0, 0.825);
+    border: 1px solid;
+    border-color: rgba(177, 170, 170, 0.5);
+}
+
+#cerca {
+    border: solid;
+    border-radius: 25px;
+    border-width: 1px;
+    border-color:rgba(177, 170, 170, 0.25);
+    /*padding: 10px 100px 15px 0px;*/
+    width: 550px;
+    height: 45px;
+    position: relative;
+    right: 50px;
+}
+
+#flex_bottoni {
+    display: flex;
+    flex-direction: column;
+}
+
+#logo {
+    position: relative;
+    left: 94px;
+    bottom: 33px;
+}
+
+body {
+    margin-top: 12%;
+    margin-left: 38%;
+}
+
+#cerca > input {
+    border: none;
+    outline: none;
+    width: 490px;
+    position: relative;
+    top: 7px;
+    left: 15px;
+}
+
+#cerca > img {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    top: 12px;
+    left: 15px;
+    opacity: 0.4;
+}
+
+#cerca:hover, #cerca:focus-within {
+    box-shadow: 0px 0px 5px 1px rgba(223, 222, 222, 0.8);
+}
+
+#apps {
+    width: 30px;
+    height: 30px;
+}
+
+nav {
+    position:relative;
+    bottom: 200px;
+    right: 700px;
+    width: 1880px;
+    background-color: gray
+    ;
+}
+
+a {
+    color:rgba(26, 26, 26, 0.75);
+    text-decoration: unset;
+    font-size: 13px;
+}
+
+#flex_link {
+    display: flex;
+    flex-direction: row;
+}
+
+nav > * {
+    display: block;
+}
+
+#primi {
+    justify-self: start;
+}
+
+#ultimi {
+    justify-self: end;
+}
